@@ -14,32 +14,6 @@ Check back regularly for updates and upcoming topics!
 
 ## Reviews
 
-### 2026/03/04 - [v1.137](https://github.com/gardener/gardener/releases/tag/untagged-68b393e712c8a79b3d66) Release
-
-[📽️ Recording]()
-
-#### Demo Agenda 📋
-
-| Presenter(s)  | Duration | Topic                                                        | Reference(s)                                                     |
-| ----------- | -------- | ------------------------------------------------------------ | ------------------------------------------------------- |
-| [@rrhubenov](https://github.com/rrhubenov) | `10m` | 📊 `VictoriaLogs` Backend Feature Gate for `gardenlet` and `gardener-operator` | [#13988](https://github.com/gardener/gardener/pull/13988) |
-| [@rickardsjp](https://github.com/rickardsjp) | `5m` | 📈 Restructured `garden_garden_last_operation` Metric With New Alerts | [#13827](https://github.com/gardener/gardener/pull/13827) |
-| [@LucaBernstein](https://github.com/LucaBernstein) | `10m` | 📦 `pkg/apis` Promoted to Go Submodule With Reorganized Import Paths | [#13536](https://github.com/gardener/gardener/pull/13536) |
-| [@LucaBernstein](https://github.com/LucaBernstein) | `5m` | ⏱️ Default `machineCreationTimeout` per Machine Type in `CloudProfile` | [#14032](https://github.com/gardener/gardener/pull/14032) |
-| [@rfranzke](https://github.com/rfranzke) | `10m` | 🔐 Reworked Secrets Manager API With New Config Functions | [#14000](https://github.com/gardener/gardener/pull/14000) |
-| [@dimityrmirchev](https://github.com/dimityrmirchev) | `5m` | 🪪 Configurable Workload Identity Token Expiration in `gardenlet` | [#13752](https://github.com/gardener/gardener/pull/13752) |
-| [@ScheererJ](https://github.com/ScheererJ) | `10m` | 🖥️ Node-Specific Configuration Files in `gardener-node-agent` | [#13412](https://github.com/gardener/gardener/pull/13412) |
-| [@rfranzke](https://github.com/rfranzke) | `5m` | 🚚 All GEPs Moved to New `gardener/enhancements` Repository | [#14043](https://github.com/gardener/gardener/pull/14043) |
-
-#### No Demo, But Still Worth Celebrating 🎉
-
-- 🪓 [DEVELOPER] When using `ModeService` in the extension webhook library, the specified service port is now properly propagated when constructing the `admissionregistrationv1.WebhookClientConfig` for `{Validating,Mutating}WebhookConfiguration`s (previously, it was not specified at all and defaulted to `443` by Kubernetes). Make sure to specify `--webhook-config-service-port` to prevent falling back to the `--webhook-config-server-port` (if configured). [#14063](https://github.com/gardener/gardener/pull/14063)
-- 🐛 [OPERATOR] An issue causing the control-plane migration to get stuck if the source backup entry deployment was retried is now fixed. [#14091](https://github.com/gardener/gardener/pull/14091)
-- 🐛 [OPERATOR] Fixed the shoot-care controller panic for clusters where `.status.credentials.rotation` exists but `.status.credentials.encryptionAtRest` is nil. [#14147](https://github.com/gardener/gardener/pull/14147)
-- 🐛 [USER] An issue which lead to a nil pointer in gardenlet when a Shoot had an empty `.spec.addons` structure defined is now fixed. [#14112](https://github.com/gardener/gardener/pull/14112)
-
-<hr />
-
 ### 2026/02/18 - [v1.136](https://github.com/gardener/gardener/releases/tag/v1.136.0) Release
 
 [📽️ Recording](https://youtu.be/jScp5zha7Fc)

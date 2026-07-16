@@ -1,0 +1,9 @@
+---
+title: 'GEP-0043: Spegel Registry Support in the registry-cache extension'
+---
+- 📌 **GEP Tracking Issue:** https://github.com/gardener/enhancements/issues/43
+- 📖 **GEP Link:** https://github.com/gardener/enhancements/pull/44
+- ✍🏻 **Author(s):** [@dimitar-kostadinov](https://github.com/dimitar-kostadinov) (Dimitar Kostadinov)
+- 🗓️ **Presentations:** 2026-07-16, 10:00 - 11:00 Europe/Berlin
+- 🎥 **Recording:**
+- 👨‍⚖️ **Decisions:**
